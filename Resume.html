@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://kit.fontawesome.com/b754e97016.js" crossorigin="anonymous"></script> <!--Fontawesome icons-->
+    <script defer src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <!--Tailwind-->
+    <script defer src="Resume.js"></script>
+    <link rel="icon" type="image/x-icon" href="Resume.ico">
+    <link href="Resume.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet"> <!--Tailwind-->
+    <title>My Resume</title>
+</head>
+<body class="bg-slate-800" id="bod">
+    <!--sm,md,lg,xl,2x1-->
+    <h5 class="text-3xl font-bold mt-1 text-center text-white">Моё резюме</h5>
+    <aside>
+        <img src="PpKlqCUNzUc.jpg" alt="myPhoto" class="size-50 sm:size-60 m-auto mt-5 rounded-full">
+    </aside>
+    <main class="flex-col mt-5 text-center text-white">
+        <section class="w-60 m-auto mb-5 border-2 rounded-2xl border-white bg-slate-500 text-1xl transition-transform duration-400  hover:bg-slate-600 hover:scale-110" id="aboutMeSection">
+            <div class="m-2 " id="sectionCaption1">
+                <i class="fa-solid fa-circle-info "></i> <b>Общая информация</b>
+                <i class="fa-solid fa-arrow-up ml-2 cursor-pointer transition-transform duration-400 hover:text-slate-300 hover:scale-130" id="sectionArrow1"></i>
+            </div>
+            <div class="font-thin text-sm p-2 hidden " id="sectionDescription1">
+                <p>Меня зовут Чижан Владимир, 2003 года рождения, проживаю в городе Ессентуки, с отличием окончил 9 классов школы, а также получил среднее профессиональное образование в Пятигорском колледже. Интересуюсь играми, фильмами, спортом такими как: армрестлинг, киберспорт и силовые виды спорта.  </p>
+            </div>
+        </section>
+        <section class="w-60 m-auto mb-5 border-2 rounded-2xl border-white bg-slate-500 text-1xl transition-transform duration-400  hover:bg-slate-600 hover:scale-110" id="projectSection">
+            <div class="m-2" id="sectionCaption2">
+                <i class="fa-solid fa-screwdriver-wrench"></i> <b>Работы</b>
+                <i class="fa-solid fa-arrow-up ml-2 cursor-pointer transition-transform duration-400 hover:text-slate-300 hover:scale-130" id="sectionArrow2"></i>
+            </div>
+            <div class="font-thin text-sm text-center p-2 hidden" id="sectionDescription2">
+                <ul class="text-blue-300">
+                    <li class="cursor-pointer mb-1"><i class="fa-solid fa-gamepad"></i> <a class="hover:underline" href="https://github.com/R3XX4R/Gaming-Video-Platform" target="_blank">Gaming-Video-Platform</a></li>
+                    <li class="cursor-pointer mb-1"><i class="fa-regular fa-circle"></i> <a class="hover:underline" href="https://github.com/R3XX4R/Tires-Company-Landing" target="_blank">Tires-Company-Landing</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="w-60 m-auto mb-5 border-2 rounded-2xl border-white bg-slate-500 text-1x1 transition-transform duration-400  hover:bg-slate-600 hover:scale-110" id="contactSection">
+            <div class="m-2" id="sectionCaption3">
+                <i class="fa-solid fa-address-card"></i> <b>Контакты</b>
+                <i class="fa-solid fa-arrow-up ml-2 cursor-pointer transition-transform duration-400 hover:text-slate-300 hover:scale-130" id="sectionArrow3"></i>
+            </div>
+            <div class="font-thin text-sm text-center p-2 hidden" id="sectionDescription3">
+                <ul class="">
+                    <li class="cursor-pointer mb-1 text-blue-300"><i class="fa-brands fa-github"></i> <a class="hover:underline" href="https://github.com/R3XX4R" target="_blank">github</a></li>
+                    <li class="cursor-pointer mb-1 text-blue-300"><i class="fa-brands fa-vk"></i> <a class="hover:underline" href="https://vk.com/chijan03" target="_blank">ВКонтакте</a></li>
+                    <li class=""><i class="fa-brands fa-telegram"></i> <p>Telegram: @VladimirChz</p></li>
+                    <li class=""><i class="fa-solid fa-envelope"></i> <p>Email: chijan03@mail.ru</p></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
